@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         mensagem += `🥤 Bebida: ${bebida}\n`;
 
         // Número do WhatsApp do vendedor
-        const numeroWhatsApp = "554892113727"; // Substitua pelo número real
+        const numeroWhatsApp = "553499947361"; // Substitua pelo número real
 
         // Criar URL para o WhatsApp
         const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
