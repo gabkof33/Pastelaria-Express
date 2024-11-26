@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastel Express</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pastel Express</h1>
+        <p>O sabor do Brasil em cada pastel!</p>
+    </header>
+
+    <main>
+        <section id="cardapio">
+            <h2>Cardápio</h2>
+            <div id="pasteis">
+                <h3>Pastéis</h3>
+            </div>
+            <div id="bebidas">
+                <h3>Bebidas</h3>
+            </div>
+        </section>
+
+        <section id="personalizar">
+            <h2>Monte Seu Pedido</h2>
+            <form id="pedido-form">
+                <label for="tamanho">Escolha o tamanho:</label>
+                <select id="tamanho" name="tamanho">
+                    <option value="médio">Médio</option>
+                    <option value="grande">Grande</option>
+                </select>
+
+                <label for="sabor">Escolha o sabor:</label>
+                <select id="sabor" name="sabor">
+                    <option value="carne">Carne</option>
+                    <option value="frango">Frango</option>
+                    <option value="queijo">Queijo</option>
+                    <option value="palmito">Palmito</option>
+                    <option value="calabresa">Calabresa</option>
+                </select>
+
+                <label for="extras">Extras:</label>
+                <input type="checkbox" id="queijo-extra" name="extras" value="Queijo Extra"> Queijo Extra
+                <input type="checkbox" id="ovo" name="extras" value="Ovo"> Ovo
+                <input type="checkbox" id="bacon" name="extras" value="Bacon"> Bacon
+
+                <label for="bebida">Escolha sua bebida:</label>
+                <select id="bebida" name="bebida">
+                    <option value="Guaraná Mineiro 300ml">Guaraná Mineiro 300ml</option>
+                    <option value="Coca-Cola 500ml">Coca-Cola 500ml</option>
+                    <option value="Zap 1L">Zap 1L</option>
+                    <option value="Suco de Cana 500ml">Suco de Cana 500ml</option>
+                    <option value="Água sem gás 300ml">Água sem gás 300ml</option>
+                </select>
+
+                <button type="button" id="enviar-whatsapp">Enviar Pedido pelo WhatsApp</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

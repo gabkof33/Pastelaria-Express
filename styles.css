@@ -1,0 +1,80 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcc00;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #ff8800;
+}
+
+#cardapio {
+    margin-bottom: 40px;
+}
+
+#cardapio h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+#cardapio div {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form button {
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: #ff6600;
+}

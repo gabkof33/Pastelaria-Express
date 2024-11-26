@@ -1,0 +1,43 @@
+{
+    "pasteis": [
+      {
+        "tamanho": "Médio",
+        "sabores": ["Carne", "Frango", "Queijo", "Palmito", "Calabresa"],
+        "preco": 10
+      },
+      {
+        "tamanho": "Grande",
+        "sabores": ["Carne", "Frango", "Queijo", "Palmito", "Calabresa"],
+        "preco": 13
+      }
+    ],
+    "bebidas": [
+      {
+        "nome": "Guaraná Mineiro",
+        "tamanhos": ["300ml", "500ml", "1L"],
+        "precos": [4, 6, 10]
+      },
+      {
+        "nome": "Coca-Cola",
+        "tamanhos": ["300ml", "500ml", "1L"],
+        "precos": [5, 8, 12]
+      },
+      {
+        "nome": "Zap",
+        "tamanhos": ["300ml", "500ml", "1L"],
+        "precos": [4, 6, 10]
+      },
+      {
+        "nome": "Suco de Cana",
+        "tamanhos": ["300ml", "500ml", "1L"],
+        "precos": [5, 8, 12]
+      },
+      {
+        "nome": "Água",
+        "variantes": ["Sem Gás", "Com Gás"],
+        "tamanhos": ["300ml", "500ml"],
+        "precos": [2, 3]
+      }
+    ]
+  }
+  
